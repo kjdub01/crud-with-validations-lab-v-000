@@ -11,7 +11,9 @@ before_action :set_song!, only: [:show, :edit, :update]
   def edit 
   end
   
-  
+  def new 
+    @song = Song.new
+  end
   
   private
   
