@@ -8,6 +8,10 @@ before_action :set_song!, only: [:show, :edit, :update]
   def show 
   end
   
+  def edit 
+  end
+  
+  
   
   private
   
