@@ -25,6 +25,9 @@ before_action :set_song!, only: [:show, :edit, :update]
     end
   end
   
+  def update
+  end
+  
   private
   
   def set_song! 
