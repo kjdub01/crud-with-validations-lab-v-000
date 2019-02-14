@@ -17,6 +17,13 @@ before_action :set_song!, only: [:show, :edit, :update]
   
   def create 
     @song = Song.new(song_params)
+    if @song.valid?
+      @song.save
+      redirect_to author_path(@song)
+    else
+      render :new
+    end
+  end
   end
   
   private
