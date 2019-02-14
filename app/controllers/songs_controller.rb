@@ -24,7 +24,6 @@ before_action :set_song!, only: [:show, :edit, :update]
       render :new
     end
   end
-  end
   
   private
   
