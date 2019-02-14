@@ -33,6 +33,10 @@ before_action :set_song!, only: [:show, :edit, :update]
     end
   end
   
+  def destroy 
+    
+  end
+  
   private
   
   def set_song! 
