@@ -9,7 +9,15 @@
 </p>
 <p>
   <%= f.label :release_year %>
-  <%= f.date_field :release_year %>
+  <%= f.number_field :release_year %>
+</p>
+<p>
+  <%= f.label :artist_name %>
+  <%= f.text_field :artist_name %>
+</p>
+<p>
+  <%= f.label :genre %>
+  <%= f.text_field :genre %>
 </p>
   <%= f.submit %>
 <% end %>
