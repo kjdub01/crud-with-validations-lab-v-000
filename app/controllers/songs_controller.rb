@@ -35,7 +35,7 @@ before_action :set_song!, only: [:show, :edit, :update]
   
   def destroy 
     set_song!.destroy
-    redirect_to song_url
+    redirect_to songs_url
   end
   
   private
